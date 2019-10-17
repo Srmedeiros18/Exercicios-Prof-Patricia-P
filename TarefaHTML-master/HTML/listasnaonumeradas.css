@@ -1,0 +1,40 @@
+body
+{
+    background-color: aquamarine;
+}
+
+h3
+{
+    margin: 15px 15px 15px 15px;
+}
+ul.nada
+{
+    list-style-type: upper-roman;
+    color: brown;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+ul.bolinha
+{
+    list-style-type: disc;
+    color: #FA8072;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+ul.quadrado
+{
+list-style-type: square;
+color:blue;
+font-size: 20px;
+margin: 20px 20px 20px 20px;
+}
+
+ul.circulo
+{
+list-style-type: circle;
+color:violet;
+font-size: 20px;
+margin: 20px 20px 20px 20px;
+}
