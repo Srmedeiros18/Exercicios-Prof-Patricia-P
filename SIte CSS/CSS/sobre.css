@@ -1,0 +1,38 @@
+/* Padding-top, padding-right, padding- bottom e padding-left*
+A propriedade padding é utilizada para definir um espaçamento interno em alguns elementos
+(por espaçamento interno queremos dizer a distância entre o limite do elemento, sua borda, e seu respectivo conteúdo)
+Se passado somente um valor para a propriedade padding, esse mesmo valor é aplicado em todas as direções.
+Se passados dois valores, o primeiro será aplicado acima e abaixo (equivalente a passar o mesmo valor para padding-top e padding-bottom) 
+e o segundo será aplicado à direita e à esquerda (equivalente ao mesmo valor para padding-right e padding-left). */
+
+/* A propriedade margin é bem parecida com a propriedade padding, exceto que ela adiciona espaço após o limite do elemento, ou seja,
+é um espaçamento além do elemento em si. Além das subpropriedades listadas a seguir, há a shorthand property margin que se comporta da 
+mesma maneira que a shorthand property do padding vista no tópico anterior */
+
+/* Para o elemento <body>, alterar a sua cor e sua fonte base por meio das propriedades color e font-family */
+
+Body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* O titulo principal deve ter um fundo estampado com a imagem 
+img/sobre-background.jpg
+Use a propriedade background-image para isso. bordar sutil nos subtitulos, para ajudar a separar o conteudo. */
+
+h1{
+    background-image: url(../IMG/sobre-background.jpg);
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
